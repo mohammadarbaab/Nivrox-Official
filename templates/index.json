@@ -1,184 +1,290 @@
-{
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */{
   "sections": {
-    "video_section_HCLBhY": {
-      "type": "video-section",
-      "name": "Custom Video Hero",
-      "settings": {
-           "video": "shopify://files/vid-trim.mp4",
-    "video_url": "",
-        "drop_tag": "Drop 2026",
-        "title": "Live. Now.",
-        "subtext": "Premium trousers and tees designed for modern comfort, clean fits, and confident everyday style.",
-        "button_link": "shopify://collections/all",
-        "button_text": "Shop Collection"
-      }
-    },
-    "collection_grid_FQ6ryr": {
-      "type": "collection-grid",
+    "hero_jVaWmY": {
+      "type": "hero",
       "blocks": {
-        "item_Ym3nzt": {
-          "type": "item",
+        "text_YLPk4p": {
+          "type": "text",
+          "name": "t:names.heading",
           "settings": {
-            "image": "shopify://shop_images/8A46BF5A-5507-45B9-A3EB-7CAD6E82029D_1_201_a.jpg",
-            "title": "Women's Trousers",
-            "collection": "girls-trousers"
-          }
+            "text": "<p>Browse our latest products</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         },
-        "item_rnj8k3": {
-          "type": "item",
+        "button_H9gpTf": {
+          "type": "button",
+          "name": "t:names.button",
           "settings": {
-            "image": "shopify://shop_images/6D1386B2-B7F5-4324-B669-8E49607476CC_1_201_a.jpg",
-            "title": "Men's Trousers",
-            "collection": "boys-trousers"
-          }
-        },
-        "item_xhAPzW": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/F5FACDE1-2656-42A5-A7EA-2686B021A3FD_1_201_a.jpg",
-            "title": "Men's T-Shirts",
-            "collection": "boys-t-shirts"
-          }
+            "label": "Shop all",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button-secondary",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "item_Ym3nzt",
-        "item_rnj8k3",
-        "item_xhAPzW"
+        "text_YLPk4p",
+        "button_H9gpTf"
       ],
-      "name": "Collection Grid",
-      "settings": {}
-    },
-    "shop_tees_1": {
-      "type": "featured-products",
+      "name": "t:names.hero",
       "settings": {
-        "subheading": "Premium Collection",
-        "heading": "BEST SELLING TEES",
-        "description": "Premium knit polos designed for everyday confidence.",
-        "products": [
-          "relaxed-fit-korean-wide-pants",
-          "premium-korean-loose-fit-trousers",
-          "nivrox-beltease-high-waist-pleated-women-trouser",
-          "elegant-high-waist-wide-leg-trousers",
-          "white-shade-line-tshirt",
-          "korean-pleated-wide-leg-trousers",
-          "korean-style-high-waist-belted-wide-leg-pants",
-          "korean-style-high-waist-belted-wide-leg-trousers",
-          "korean-style-high-waist-wide-leg-pants",
-          "minimal-pleated-wide-leg-trousers",
-          "modern-korean-wide-pants",
-          "nivrox-beltfit-high-waist-wide-leg-women-trouser",
-          "nivrox-luxetail-high-waist-women-s-trouser",
-          "textured-knit-polo-tee",
-          "blue-knit-polo"
-        ],
-        "products_limit": 12,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_color_options": true,
-        "show_view_all": true,
-        "view_all_text": "View All Products",
-        "view_all_link": "shopify://collections/all"
+        "media_type_1": "image",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "space-between",
+        "vertical_alignment": "flex-end",
+        "align_baseline": true,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "flex-end",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "medium",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-6",
+        "toggle_overlay": true,
+        "overlay_color": "#12121266",
+        "overlay_style": "solid",
+        "gradient_direction": "to bottom",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 100,
+        "padding-block-end": 72
       }
     },
-    "custom_text_zNUkR6": {
-      "type": "custom-text",
-      "name": "Custom Text",
+    "product_list_fa6P9H": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "name": "t:names.header",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_list_text_YFtzcL": {
+              "type": "_product-list-text",
+              "name": "t:names.collection_title",
+              "settings": {
+                "text": "<h3>{{ closest.collection.title }}</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_list_button_MWeP9V": {
+              "type": "_product-list-button",
+              "name": "t:names.product_list_button",
+              "settings": {
+                "label": "View all",
+                "open_in_new_tab": false,
+                "style_class": "link",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_list_text_YFtzcL",
+            "product_list_button_MWeP9V"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 4,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_677WP3": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "adapt",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_title_YXxMTj": {
+              "type": "product-title",
+              "name": "t:names.product_title",
+              "settings": {
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price_JQzVV4": {
+              "type": "price",
+              "name": "t:names.product_price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "h6",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "color": "var(--color-foreground)",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_677WP3",
+            "product_title_YXxMTj",
+            "price_JQzVV4"
+          ]
+        }
+      },
+      "name": "Featured collection",
       "settings": {
-        "heading": "ABOUT NIVROX",
-        "text": "Nivrox is a modern fashion brand focused on clean silhouettes, premium fabrics, and everyday comfort. Our collections are designed to deliver effortless style with a confident and contemporary look."
-      }
-    },
-    "info_boxes": {
-      "type": "info-boxes",
-      "settings": {}
-    },
-    "winter_collection_jLW3LF": {
-      "type": "winter-collection",
-      "name": "Winter Collection",
-      "settings": {
-        "image": "shopify://shop_images/girls_image.jpg",
-        "heading": "CLASSIC TROUSER COLLECTION",
-        "text": "Discover Nivrox trousers designed with modern fits, premium fabrics, and effortless style.",
-        "button_label": "Shop Trousers",
-        "button_link": ""
-      }
-    },
-    "image-text-split": {
-      "type": "image-text-split",
-      "settings": {
-        "image": "shopify://shop_images/model-8.png",
-        "heading": "SIGNATURE TROUSERS",
-        "text": "Our signature trousers combine modern tailoring with comfortable fabrics.",
-        "button_label": "Shop Collection",
-        "button_link": "shopify://collections"
-      }
-    },
-    "image-text-split-s": {
-      "type": "image-text-split-s",
-      "settings": {
-        "image": "shopify://shop_images/model-9.png",
-        "heading": "MODERN EVERYDAY STYLE",
-        "text": "Upgrade your wardrobe with Nivrox trousers and t-shirts.",
-        "button_label": "SHOP NOW",
-        "button_link": "shopify://collections"
-      }
-    },
-    "custom_newsletter": {
-      "type": "custom-newsletter",
-      "settings": {
-        "heading": "JOIN THE NIVROX COMMUNITY",
-        "subtext": "Subscribe to receive exclusive offers and new arrivals."
-      }
-    },
-    "video_section_HCLBhY_2": {
-      "type": "video-section-2",
-      "name": "Custom Video Hero-2",
-      "settings": {
-        "video": "shopify://files/vid-trim.mp4",
-        "video_url": ""
-      }
-    },
-    "nivrox_reviews": {
-      "type": "nivrox-reviews",
-      "settings": {
-        "products": [
-          "blue-knit-polo",
-          "olive-green-knit-polo-tee",
-          "white-shade-line-tshirt",
-          "korean-paint"
-        ]
-      }
-    },
-    "custom_footer": {
-      "type": "custom-footer",
-      "settings": {
-        "logo_text": "YOUR BRAND",
-        "menu_1_title": "LINKS",
-        "logo_image": "shopify://shop_images/DA2ACC1A-A9F6-4283-8AA8-BC0F3B0FF8D1_1_201_a.jpg",
-        "footer_menu_1": "home",
-        "menu_2_title": "LEGAL",
-        "footer_menu_2": "legal",
-        "description": "Nivrox represents modern fashion with clean silhouettes and premium fabrics.",
-        "facebook": "https://www.facebook.com/people/Nivrox/61587792748130/",
-        "instagram": "https://www.instagram.com/nivrox_official/",
-        "twitter": "https://twitter.com",
-        "linkedin": "https://linkdln.com"
+        "collection": "all",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 8,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 8,
+        "rows_gap": 24,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 28,
+        "color_scheme": "scheme-1",
+        "padding-block-start": 48,
+        "padding-block-end": 48
       }
     }
   },
   "order": [
-    "video_section_HCLBhY",
-    "collection_grid_FQ6ryr",
-    "shop_tees_1",
-    "custom_text_zNUkR6",
-    "info_boxes",
-    "winter_collection_jLW3LF",
-    "image-text-split",
-    "image-text-split-s",
-    "custom_newsletter",
-    "video_section_HCLBhY_2",
-    "nivrox_reviews",
-    "custom_footer"
+    "hero_jVaWmY",
+    "product_list_fa6P9H"
   ]
 }

@@ -41,9 +41,6 @@
 {% stylesheet %}
   .announcement-bar {
     border-block-end: var(--border-bottom-width) solid var(--color-border);
-    background-color: #f2f2f2 !important;
-    padding: 10px 0;
-
   }
 
   .announcement-bar__slider {
@@ -71,6 +68,7 @@
 
   .announcement-bar__slide {
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    content-visibility: visible;
 
     &[aria-hidden='true'] {
       opacity: 0;
