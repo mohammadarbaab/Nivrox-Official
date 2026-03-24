@@ -4,8 +4,8 @@
       "type": "video-section",
       "name": "Custom Video Hero",
       "settings": {
-        "video": "shopify://files/customvideo.mp4",
-        "video_url": "",
+           "video": "shopify://files/vid-trim.mp4",
+    "video_url": "",
         "drop_tag": "Drop 2026",
         "title": "Live. Now.",
         "subtext": "Premium trousers and tees designed for modern comfort, clean fits, and confident everyday style.",
