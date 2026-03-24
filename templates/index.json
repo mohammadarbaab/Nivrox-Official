@@ -1,0 +1,193 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "video_section_HCLBhY": {
+      "type": "video-section",
+      "name": "Custom Video Hero",
+      "settings": {
+        "video": "shopify://files/videos/customvideo.mp4",
+        "video_url": "",
+        "drop_tag": "Drop 2026",
+        "title": "Live. Now.",
+        "subtext": "Premium trousers and tees designed for modern comfort, clean fits, and confident everyday style.",
+        "button_link": "shopify://collections/all",
+        "button_text": "Shop Collection"
+      }
+    },
+    "collection_grid_FQ6ryr": {
+      "type": "collection-grid",
+      "blocks": {
+        "item_Ym3nzt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/8A46BF5A-5507-45B9-A3EB-7CAD6E82029D_1_201_a.jpg",
+            "title": "Women's Trousers",
+            "collection": "girls-trousers"
+          }
+        },
+        "item_rnj8k3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/6D1386B2-B7F5-4324-B669-8E49607476CC_1_201_a.jpg",
+            "title": "Men's Trousers",
+            "collection": "boys-trousers"
+          }
+        },
+        "item_xhAPzW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/F5FACDE1-2656-42A5-A7EA-2686B021A3FD_1_201_a.jpg",
+            "title": "Men's T-Shirts",
+            "collection": "boys-t-shirts"
+          }
+        }
+      },
+      "block_order": [
+        "item_Ym3nzt",
+        "item_rnj8k3",
+        "item_xhAPzW"
+      ],
+      "name": "Collection Grid",
+      "settings": {}
+    },
+    "shop_tees_1": {
+      "type": "featured-products",
+      "settings": {
+        "subheading": "Premium Collection",
+        "heading": "BEST SELLING TEES",
+        "description": "Premium knit polos designed for everyday confidence.",
+        "products": [
+          "relaxed-fit-korean-wide-pants",
+          "premium-korean-loose-fit-trousers",
+          "nivrox-beltease-high-waist-pleated-women-trouser",
+          "elegant-high-waist-wide-leg-trousers",
+          "white-shade-line-tshirt",
+          "korean-pleated-wide-leg-trousers",
+          "korean-style-high-waist-belted-wide-leg-pants",
+          "korean-style-high-waist-belted-wide-leg-trousers",
+          "korean-style-high-waist-wide-leg-pants",
+          "minimal-pleated-wide-leg-trousers",
+          "modern-korean-wide-pants",
+          "nivrox-beltfit-high-waist-wide-leg-women-trouser",
+          "nivrox-luxetail-high-waist-women-s-trouser",
+          "textured-knit-polo-tee",
+          "blue-knit-polo"
+        ],
+        "products_limit": 12,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_color_options": true,
+        "show_view_all": true,
+        "view_all_text": "View All Products",
+        "view_all_link": "shopify://collections/all"
+      }
+    },
+    "custom_text_zNUkR6": {
+      "type": "custom-text",
+      "name": "Custom Text",
+      "settings": {
+        "heading": "ABOUT NIVROX",
+        "text": "Nivrox is a modern fashion brand focused on clean silhouettes, premium fabrics, and everyday comfort. Our collections are designed to deliver effortless style with a confident and contemporary look."
+      }
+    },
+    "info_boxes": {
+      "type": "info-boxes",
+      "settings": {}
+    },
+    "winter_collection_jLW3LF": {
+      "type": "winter-collection",
+      "name": "Winter Collection",
+      "settings": {
+        "image": "shopify://shop_images/girls_image.jpg",
+        "heading": "CLASSIC TROUSER COLLECTION",
+        "text": "Discover Nivrox trousers designed with modern fits, premium fabrics, and effortless style. Perfect for everyday wear, work, and casual occasions.",
+        "button_label": "Shop Trousers",
+        "button_link": ""
+      }
+    },
+    "image-text-split": {
+      "type": "image-text-split",
+      "settings": {
+        "image": "shopify://shop_images/model-8.png",
+        "heading": "SIGNATURE TROUSERS",
+        "text": "Our signature trousers combine modern tailoring with comfortable fabrics to deliver a sharp silhouette and effortless everyday style.",
+        "button_label": "Shop Collection",
+        "button_link": "shopify://collections"
+      }
+    },
+    "image-text-split-s": {
+      "type": "image-text-split-s",
+      "settings": {
+        "image": "shopify://shop_images/model-9.png",
+        "heading": "MODERN EVERYDAY STYLE",
+        "text": "Upgrade your wardrobe with Nivrox trousers and t-shirts designed for comfort, confidence, and clean modern style.",
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://collections"
+      }
+    },
+    "custom_newsletter": {
+      "type": "custom-newsletter",
+      "settings": {
+        "heading": "JOIN THE NIVROX COMMUNITY",
+        "subtext": "Subscribe to receive exclusive offers, new arrivals, and special drops from Nivrox."
+      }
+    },
+    "video_section_HCLBhY_2": {
+      "type": "video-section-2",
+      "name": "Custom Video Hero-2",
+      "settings": {
+        "video": "shopify://files/videos/vid - Trim.mp4",
+        "video_url": ""
+      }
+    },
+    "nivrox_reviews": {
+      "type": "nivrox-reviews",
+      "settings": {
+        "products": [
+          "blue-knit-polo",
+          "olive-green-knit-polo-tee",
+          "white-shade-line-tshirt",
+          "korean-paint"
+        ]
+      }
+    },
+    "custom_footer": {
+      "type": "custom-footer",
+      "settings": {
+        "logo_text": "YOUR BRAND",
+        "menu_1_title": "LINKS",
+        "logo_image": "shopify://shop_images/DA2ACC1A-A9F6-4283-8AA8-BC0F3B0FF8D1_1_201_a.jpg",
+        "footer_menu_1": "home",
+        "menu_2_title": "LEGAL",
+        "footer_menu_2": "legal",
+        "description": "Nivrox represents modern fashion with clean silhouettes, premium fabrics, and everyday comfort. Our collections focus on trousers and t-shirts designed for confident, effortless style.",
+        "facebook": "https://www.facebook.com/people/Nivrox/61587792748130/",
+        "instagram": "https://www.instagram.com/nivrox_official/",
+        "twitter": "https://twitter.com",
+        "linkedin": "https://linkdln.com"
+      }
+    }
+  },
+  "order": [
+    "video_section_HCLBhY",
+    "collection_grid_FQ6ryr",
+    "shop_tees_1",
+    "custom_text_zNUkR6",
+    "info_boxes",
+    "winter_collection_jLW3LF",
+    "image-text-split",
+    "image-text-split-s",
+    "custom_newsletter",
+    "video_section_HCLBhY_2",
+    "nivrox_reviews",
+    "custom_footer"
+  ]
+}
